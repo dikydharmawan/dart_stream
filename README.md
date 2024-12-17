@@ -1,6 +1,27 @@
 # dart_streams
 
-A new Flutter project.
+# Ahmad Diky Dharmawan_362358302047
+
+Soal 1
+- Tambah nama Ahmad Diky Dharmawan pada tittle app
+- Ganti warna tema
+- Commit
+
+Soal 2
+- Tambah 5 warna pada variabel colors
+- Commit
+
+Soal 3
+- yield*: Mendelegasikan iterasi ke iterable lain (seperti Stream, List, atau Set). Artinya, ia "menyerahkan" penghasilan nilai kepada iterable yang didelegasikan. Setiap nilai dari iterable tersebut akan di-yield satu per satu seolah-olah di-yield langsung oleh fungsi generator saat ini.
+
+- Stream.periodic(const Duration(seconds: 1), (int t) {...}): Membuat sebuah Stream yang menghasilkan nilai secara periodik setiap 1 detik.
+(int t): Fungsi callback yang diberikan ke Stream.periodic menerima sebuah integer t yang dimulai dari 0 dan bertambah setiap detik.
+int index = t % colors.length;: Menghitung indeks berdasarkan modulus (%). Ini memastikan bahwa indeks selalu berada dalam rentang indeks yang valid dari list colors. Misalnya, jika colors memiliki 3 elemen, maka index akan berulang antara 0, 1, dan 2.
+return colors[index];: Mengembalikan elemen dari list colors pada index yang dihitung.
+yield*: Karena hasil dari Stream.periodic adalah sebuah Stream, yield* digunakan untuk "meratakan" stream tersebut. Setiap nilai yang dihasilkan oleh Stream.periodic akan di-yield satu per satu oleh fungsi getColors() yang Anda buat.
+
+- Commit
+
 
 ## Getting Started
 
