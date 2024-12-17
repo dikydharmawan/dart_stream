@@ -25,6 +25,7 @@ yield*: Karena hasil dari Stream.periodic adalah sebuah Stream, yield* digunakan
 Soal 4
 - Buat fungsi untuk mengubah warna tema aplikasi
 </br>
+
 ![gif](assets/gif/01.gif)
 
 ## Getting Started
