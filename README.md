@@ -22,6 +22,8 @@ yield*: Karena hasil dari Stream.periodic adalah sebuah Stream, yield* digunakan
 
 - Commit
 
+Soal 4
+![gif](assets/gif/01.gif);
 
 ## Getting Started
 
