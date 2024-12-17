@@ -27,6 +27,22 @@ Soal 4
 </br>
 
 ![gif](assets/gif/01.gif)
+</br>
+
+Soal 5
+- Metode listen
+Definisi:
+
+listen adalah metode yang digunakan untuk mulai mendengarkan aliran data dari sebuah Stream. Ini adalah cara yang lebih "low-level" untuk menangani event dari stream.
+
+- await for
+Definisi:
+
+await for adalah cara yang lebih sederhana dan lebih bersih untuk menangani aliran data dari Stream. Ini digunakan dalam konteks fungsi asinkron dan memungkinkan Anda untuk menunggu setiap event dari stream secara berurutan.
+
+- Commit
+
+
 
 ## Getting Started
 
